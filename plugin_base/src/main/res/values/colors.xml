@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FF3B87F6</color>
+
+    <color name="black_10p">#1a000000</color>
+    <color name="black_20p">#33000000</color>
+    <color name="black_30p">#4d000000</color>
+    <color name="black_40p">#66000000</color>
+    <color name="black_50p">#80000000</color>
+    <color name="black_60p">#99000000</color>
+    <color name="black_70p">#b3000000</color>
+    <color name="black_80p">#cc000000</color>
+    <color name="black_90p">#e6000000</color>
+    <color name="black_100p">#ff000000</color>
+    <color name="white_10p">#1affffff</color>
+    <color name="white_20p">#33ffffff</color>
+    <color name="white_30p">#4dffffff</color>
+    <color name="white_40p">#66ffffff</color>
+    <color name="white_50p">#80ffffff</color>
+    <color name="white_60p">#99ffffff</color>
+    <color name="white_70p">#b3ffffff</color>
+    <color name="white_80p">#ccffffff</color>
+    <color name="white_90p">#e6ffffff</color>
+    <color name="white_100p">#ffffffff</color>
+
+    <color name="grey_50">#FAFAFA</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900">#212121</color>
+</resources>
