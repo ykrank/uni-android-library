@@ -32,6 +32,8 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
 
+    implementation "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.4.10"
+
     api rootProject.ext.dependencies.jackson
     api rootProject.ext.dependencies.jacksonKotlin
     api rootProject.ext.dependencies.myLogger
