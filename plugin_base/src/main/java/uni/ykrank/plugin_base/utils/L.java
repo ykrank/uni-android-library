@@ -25,7 +25,8 @@ public class L {
     @SuppressWarnings("deprecation")
     public static String TAG = BuildConfig.APPLICATION_ID;
 
-    public static void init(@NonNull Context context) {
+    public static void init(@NonNull Context context, boolean showLog) {
+        L.showLog = showLog;
         if (init.get()) {
             return;
         }
