@@ -26,6 +26,10 @@ public class L {
     public static String TAG = BuildConfig.APPLICATION_ID;
 
     public static void init(@NonNull Context context) {
+        if (init.get()) {
+            return;
+        }
+        init.set(true);
         TAG = context.getString(R.string.app_name);
         FormatStrategy formatStrategy = PrettyFormatStrategy.newBuilder()
                 .showThreadInfo(true)  // (Optional) Whether to show thread info or not. Default true
@@ -49,8 +53,8 @@ public class L {
 
     public static boolean showLog() {
         if (!init.get()) {
-            init.set(true);
-            showLog = BuildConfig.DEBUG;
+            Log.e(TAG, "Logger未初始化");
+            return false;
         }
         return showLog;
     }
