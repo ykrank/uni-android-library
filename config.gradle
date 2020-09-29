@@ -23,6 +23,6 @@ ext {
             jackson        : "com.fasterxml.jackson.core:jackson-databind:2.11.0",
             jacksonKotlin  : "com.fasterxml.jackson.module:jackson-module-kotlin:2.11.0",
             myLogger       : "com.orhanobut:logger:2.2.0",
-            okhttp         : "com.squareup.okhttp3:okhttp:4.9.0",
+            okhttp         : "com.squareup.okhttp3:okhttp:3.14.9",
     ]
 }
