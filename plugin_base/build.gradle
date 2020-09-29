@@ -34,7 +34,7 @@ dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-android-extensions-runtime:${rootProject.ext.kotlin_version}"
 
-    api rootProject.ext.dependencies.jacksonKotlin
+    api rootProject.ext.dependencies.fastJson
     api rootProject.ext.dependencies.myLogger
     api rootProject.ext.dependencies.okhttp
 
@@ -42,7 +42,7 @@ dependencies {
     api rootProject.ext.dependencies.supportV13
 
     api rootProject.ext.dependencies.retrofit
-    api rootProject.ext.dependencies.retrofitJackson
+    api rootProject.ext.dependencies.retrofitFastjson
     api rootProject.ext.dependencies.retrofitString
     api rootProject.ext.dependencies.retrofitRxjava2
 
