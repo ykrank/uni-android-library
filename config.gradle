@@ -8,6 +8,7 @@ ext {
             retrofitVersion  : "2.9.0",
     ]
     dependencies = [
+            myUniLib       : "com.github.ykrank:uni-android-library:0.1.5",
             supportV4      : "com.android.support:support-v4:${versions.supportLibVersion}",
             supportV13     : "com.android.support:support-v13:${versions.supportLibVersion}",
             appcompatV7    : "com.android.support:appcompat-v7:${versions.supportLibVersion}",

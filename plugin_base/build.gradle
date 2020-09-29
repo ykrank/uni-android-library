@@ -34,7 +34,6 @@ dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-android-extensions-runtime:${rootProject.ext.kotlin_version}"
 
-    api rootProject.ext.dependencies.jackson
     api rootProject.ext.dependencies.jacksonKotlin
     api rootProject.ext.dependencies.myLogger
     api rootProject.ext.dependencies.okhttp
